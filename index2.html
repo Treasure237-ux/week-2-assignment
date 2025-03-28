@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML, list, images, table  & forms</title>
+    </head>
+    <body style="background-color: blueviolet;">
+        <h1>HTML lists</h1>
+        <h3>Ordered list</h3>
+        <ol type="i" start="1">
+            <li>Software Engineering</li>
+            <li>Web Development</li>
+            <li>python</li>
+            <li>Database management</li>
+            <li>Startup bulding</li>
+        </ol>
+        <h3>Un-ordered lists</h3>
+        <ul type="square">
+            <li>Bro Jude</li>
+            <li>Bro wede</li>
+            <li>Bro Joseph</li>
+            <li>Sis Brender</li>
+        </ul>
+        <h3>Definition lists</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Makeup Language</dd>
+            <dt>SQL</dt>
+            <dd>Structered Query Language</dd>
+        </dl>
+        <h1>HTML Images</h1>
+        <img src="flag.jpg" alt="Image of a girl holding a flag" width="350" height="550">
+        <h1>HTML Tables</h1>
+        <table border="2">
+            <caption>Little Information</caption>
+            <thead>
+                <tr>
+                    <th>Names</th>
+                    <th>Networth</th>
+                    <th>Single</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Treasure</td>
+                    <td>900bn</td>
+                    <td>yes</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>500bn</td>
+                    <td>yes</td>
+                </tr>
+                <tr>
+                    <td>Victory</td>
+                    <td>200bn</td>
+                    <td>no</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>Names</th>
+                <th>Networth</th>
+                <th>Single</th>
+            </tfoot>
+        </table>
+        <h1>HTML Forms
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="Radio" id="gender" name="gender" value="Female">Female
+            <input type="Radio" id="gender" name="gender" value="Male">Male
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies" value="sports">sports
+            <input type="checkbox" name="hobbies" value="arts">Arts
+            <input type="checkbox" name="hobbies" value="music">music
+            <input type="checkbox" name="hobbies" value="Travel">Travel
+            <br><br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option>--Select country--</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+            </select>
+            <br><br>
+            <label for="description">Describe yourself:</label>
+            <textarea name="description" id="description"></textarea>
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="cancle">
+        </form>    
+        </h1>
+    </body>
+</html>
